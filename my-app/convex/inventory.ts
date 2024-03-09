@@ -113,7 +113,7 @@ export const generateInventoryIcon = internalAction({
         }),
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${process.env.OPENAI_API_KEY}` as string, // Explicitly define type
+          Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
         },
       }
     );
