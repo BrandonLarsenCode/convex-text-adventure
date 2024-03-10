@@ -146,26 +146,23 @@ export default function Adventure(props: {
 
                 return (
                   <div key={idx}>
-                    {item && item.imageUrl ? (
-                      <div className="flex flex-col text-center text-xl">
-                        <img
-                          className="rounded-xl border-gray-500 border"
-                          src={
-                            items.find((item) => item.itemName === itemName)
-                              ?.imageUrl
-                          }
-                        />
-                        {itemName}
-                      </div>
-                    ) : (
-                      <div className="text-xl flex flex-col items-center">
-                        <Spinner />
-                        {itemName}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
+                  {item && item.imageUrl ? (
+                    <div className="flex flex-col text-center text-xl">
+                      <img
+                        className="rounded-xl border-gray-500 border"
+                        src={item.imageUrl}
+                      />
+                      {itemName}
+                    </div>
+                  ) : (
+                    <div className="text-xl flex flex-col items-center">
+                      <Spinner />
+                      {itemName}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
             </div>
           </div>
         </div>

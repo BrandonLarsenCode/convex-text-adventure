@@ -10,6 +10,9 @@ export default function Main() {
   const router = useRouter();
   const [selectedCharacter, setSelectedCharacter] = useState("warrior");
 
+  // Assuming you have some mechanism to get the `items` array
+  const items = []; // Initialize items as an empty array or with some default value
+
   return (
     <div className="flex justify-center items-center w-full h-screen font-chakra flex-col gap-8">
       <h1 className="text-4xl text-white">

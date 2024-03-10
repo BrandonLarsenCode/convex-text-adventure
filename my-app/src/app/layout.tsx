@@ -1,13 +1,18 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter, Rubik_Burned, Chakra_Petch } from "next/font/google";
 import ConvexClientProvider from "./ConvexClientProvider";
 
-export const font = Chakra_Petch({
-  subsets: ["latin"],
-  weight: "400",
+// Define a custom type for the font variable
+interface Font {
+  variable: string;
+  // Add other properties as needed
+}
+
+// Create the font variable
+const font: Font = {
   variable: "--font-chakra",
-});
+  // Add other properties as needed
+};
 
 export const metadata: Metadata = {
   title: "Create Next App",
