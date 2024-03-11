@@ -1,0 +1,6 @@
+C:\Users\User\documents\convex-text-adventure\my-app\obj\Debug\netcoreapp3.1\convex-text-adventure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\documents\convex-text-adventure\my-app\obj\Debug\netcoreapp3.1\convex-text-adventure.AssemblyInfoInputs.cache
+C:\Users\User\documents\convex-text-adventure\my-app\obj\Debug\netcoreapp3.1\convex-text-adventure.AssemblyInfo.cs
+C:\Users\User\documents\convex-text-adventure\my-app\obj\Debug\netcoreapp3.1\convex-text-adventure.csproj.CoreCompileInputs.cache
+C:\Users\User\documents\convex-text-adventure\my-app\obj\Debug\netcoreapp3.1\convex-text-adventure.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\documents\convex-text-adventure\my-app\obj\Debug\netcoreapp3.1\convex-text-adventure.sourcelink.json
